@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.layout {
+  flex-direction: column;
+}
+
+.app-item {
+  width: 100%;
+}
+
+.app-item-2 {
+  width: 100%
+}
+
+@media only screen and (min-width: 860px) {
+  .layout{
+    flex-direction: row;
+  }
+
+  .app-item {
+    width: 35%;
+  }
+
+  .app-item-2 {
+    width: 65%;
+  }
+}
+
